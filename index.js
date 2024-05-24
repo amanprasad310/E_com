@@ -14,7 +14,7 @@ require('./oauth');
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect('mongodb://localhost:27017/register');
+    await mongoose.connect('mongodb+srv://kumardurgesh:kumardurgesh123@compassp.quqiect.mongodb.net/register');
     // 'mongodb+srv://kumardurgesh:kumardurgesh123@compassp.quqiect.mongodb.net/register'
     console.log("db CONNECTED");
     // mongodb://localhost:27017/
